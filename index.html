@@ -6,21 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>ARNOLD TRIVIA!!</title>
 </head>
 <body>
-    <div id="gameStart">
+    <div id="gameStartScreen">
         <h3>Press the Arnold Face to start!!!</h3>
 
-        <button>NYAGHHH!!!</button>
+        <button id="startButton">NYAGHHH!!!</button>
     </div>
+    <div id="gameOverScreen">
+            <h3>DO IT AGAIN!!</h3>
+    
+            <button id="resetButton">NYAGHHH!!!</button>
+        </div>
 
-    <div class="container">
+    <div id="container">
 
         <h1>Arnold TRIVIAAA!!!!</h1>
         
         <div id="timer"></div>
-        <div id="questions"></div>
+        <div id="question-space">
+            <div id="question1"></div>
+            <div id="guess1"></div>
+            <div id="question2"></div>
+            <div id="guess2"></div>
+            <div id="question3"></div>
+            <div id="guess3"></div>
+            <div id="question4"></div>
+            <div id="guess4"></div>
+            <div id="question5"></div>
+            <div id="guess5"></div>
+        </div>
 
     </div>
 
